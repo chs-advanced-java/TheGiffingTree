@@ -9,7 +9,7 @@
     <android.support.v7.widget.CardView android:id="@+id/optionCard"
         android:layout_width="match_parent"
         android:layout_height="164dp"
-        android:foreground="?android:attr/selectableItemBackground"
+        android:foreground="@drawable/selectable_item_background"
         android:clickable="true">
 
         <RelativeLayout android:id="@+id/optionCardGuts"
