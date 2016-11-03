@@ -30,7 +30,12 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/main_logo">
 
-            <include layout="@layout/option_card" />
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/recyclerViewOptions">
+
+            </android.support.v7.widget.RecyclerView>
 
         </RelativeLayout>
 
