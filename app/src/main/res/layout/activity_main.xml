@@ -25,7 +25,7 @@
             />
         <!-- END HARDCODE -->
 
-        <RelativeLayout
+        <RelativeLayout android:id="@+id/optionsLayout"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/main_logo">
