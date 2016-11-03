@@ -10,6 +10,28 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="ajlyfe.thegiffingtree.MainActivity">
 
-    <include layout="@layout/option_card" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView android:id="@+id/main_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+
+            android:text="[THE GIVING TREE LOGO HERE]"
+            android:textSize="18dp"
+            />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/main_logo">
+
+            <include layout="@layout/option_card" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
 
 </RelativeLayout>
