@@ -1,6 +1,7 @@
 package ajlyfe.thegiffingtree;
 
 import android.content.Context;
+import android.support.annotation.NonNull;
 import android.view.View;
 
 import java.util.ArrayList;
@@ -11,7 +12,7 @@ public class OptionCard {
     private String optionName;
     private View.OnClickListener onClickListener;
 
-    public OptionCard(String optionName, View.OnClickListener onClickListener) {
+    public OptionCard(String optionName, @NonNull View.OnClickListener onClickListener) {
         this.optionName = optionName;
         this.onClickListener = onClickListener;
     }
