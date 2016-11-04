@@ -9,16 +9,16 @@ import ajlyfe.thegiffingtree.R;
 public class OptionCard {
     private String optionName;
 
-    public OptionCard(String o) {
-        optionName = o;
+    public OptionCard(String optionName) {
+        this.optionName = optionName;
     }
 
     public String getOptionName() {
-        return optionName;
+        return this.optionName;
     }
 
-    public OptionCard setOptionName(String o) {
-        this.optionName = o;
+    public OptionCard setOptionName(String optionName) {
+        this.optionName = optionName;
         return this;
     }
 }
