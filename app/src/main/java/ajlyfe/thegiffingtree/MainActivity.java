@@ -12,8 +12,26 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 
 public class MainActivity extends AppCompatActivity {
+
     private static final String PERSONAL = "Personal";
+
+        private static final String WE_ARE_FRIENDS = "We are Friends";
+            private static final String THEY_HAVE_EMBARRASSED_ME_BEFORE = "They have Embarrassed Me Before";
+            private static final String BESTIES_4_LYFE = "Besties 4 Lyfe";
+
+        private static final String I_HATE_THEM = "I Hate Them";
+            private static final String WE_USED_TO_BE_FRIENDLY = "We Used to be Friendly";
+            private static final String $$$$_THEM = "$*%# Them!";
+
     private static final String PROFESSIONAL = "Professional";
+
+        private static final String BETTER_THAN_THEM = "Better than Them. (Subordinate)";
+            private static final String CONGRATULATE = "Congratulate";
+            private static final String REPRIMAND = "Reprimand";
+
+        private static final String THEY_ARE_BETTER_THAN_ME = "They are Better than Me. (Boss)";
+            private static final String THEY_ARE_A_FIGUREHEAD = "They are a Figurehead.";
+            private static final String THEY_ARE_PRETENTIOUS = "They are Pretentious";
 
     private RecyclerView recyclerViewOptions;
     private ArrayList<OptionCard> optionCards = new ArrayList<>();
