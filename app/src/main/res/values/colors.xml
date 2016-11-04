@@ -3,6 +3,7 @@
     <color name="colorPrimary">#B9f6CA</color>
     <color name="colorPrimaryDark">#00C853</color>
     <color name="colorAccent">#FF626F</color>
+    <color name="colorAccentLight">#FF959E</color>
 
     <color name="rippleColor">#10FF626F</color>
     <color name="rippleColorDark">#35FF626F</color>
