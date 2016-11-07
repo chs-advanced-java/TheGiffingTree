@@ -26,10 +26,10 @@ import butterknife.ButterKnife;
 
 public class OptionCardAdapter extends RecyclerView.Adapter<OptionCardAdapter.ViewHolder> {
 
-    private ArrayList<OptionCard> optionList;
+    private ArrayList<optionCard> optionList;
     private Activity parentActivity;
 
-    public OptionCardAdapter(@NonNull ArrayList<OptionCard> optionList, Activity parentActivity) {
+    public OptionCardAdapter(@NonNull ArrayList<optionCard> optionList, Activity parentActivity) {
         this.optionList = optionList;
         this.parentActivity = parentActivity;
     }
@@ -42,7 +42,7 @@ public class OptionCardAdapter extends RecyclerView.Adapter<OptionCardAdapter.Vi
 
     @Override
     public void onBindViewHolder(final OptionCardAdapter.ViewHolder viewHolder, int position) {
-        final OptionCard option = optionList.get(viewHolder.getAdapterPosition());
+        final optionCard option = optionList.get(viewHolder.getAdapterPosition());
 
         TextView title = viewHolder.optionTitle;
         title.setText(option.getOptionName());
