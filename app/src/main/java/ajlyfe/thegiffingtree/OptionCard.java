@@ -1,7 +1,12 @@
 package ajlyfe.thegiffingtree;
 
+import android.content.Context;
 import android.support.annotation.NonNull;
 import android.view.View;
+
+import java.util.ArrayList;
+
+import ajlyfe.thegiffingtree.R;
 
 public class OptionCard {
     private String optionName;
