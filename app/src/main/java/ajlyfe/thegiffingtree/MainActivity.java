@@ -4,12 +4,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-<<<<<<< HEAD
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
-=======
 import android.view.View;
->>>>>>> origin/master
 
 import java.io.File;
 import java.util.ArrayList;
@@ -44,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
             private static final String PRETENTIOUS = "They are Pretentious";
 
     private RecyclerView recyclerViewOptions;
-    private ArrayList<OptionCard> optionCards = new ArrayList<>();
+    private ArrayList<optionCard> optionCards = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,23 +49,21 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
 
-<<<<<<< HEAD
        /** recyclerViewOptions = (RecyclerView) findViewById(R.id.recyclerViewOptions);
         final OptionCardAdapter adapter = new OptionCardAdapter(getDummyArray(), this);
 =======
         recyclerViewOptions = (RecyclerView) findViewById(R.id.recyclerViewOptions);
         final OptionCardAdapter adapter = new OptionCardAdapter(getFirstOptions(), this);
->>>>>>> origin/master
         recyclerViewOptions.setAdapter(adapter);
         recyclerViewOptions.setLayoutManager(new LinearLayoutManager(this));**/
 
         
     }
 
-    private ArrayList<OptionCard> getFirstOptions() {
-        ArrayList<OptionCard> firstOptionArray = new ArrayList<>();
+    private ArrayList<optionCard> getFirstOptions() {
+        ArrayList<optionCard> firstOptionArray = new ArrayList<>();
 
-        firstOptionArray.add(0, new OptionCard(
+        firstOptionArray.add(0, new optionCard(
                 PERSONAL,
                 new View.OnClickListener() {
                     @Override
@@ -77,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                 }));
 
-        firstOptionArray.add(1, new OptionCard(
+        firstOptionArray.add(1, new optionCard(
                 PROFESSIONAL,
                 new View.OnClickListener() {
                     @Override
@@ -96,14 +91,14 @@ public class MainActivity extends AppCompatActivity {
         // Recreate optionCards ArrayList
         switch (oldOption) {
             case PERSONAL:
-                optionCards.add(0, new OptionCard(
+                optionCards.add(0, new optionCard(
                         null,
                         null
                 ));
                 break;
 
             case PROFESSIONAL:
-                optionCards.add(1, new OptionCard(
+                optionCards.add(1, new optionCard(
                         null,
                         null
                 ));
