@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
             private static final String BESTIES = "Besties 4 Lyfe";
                 private static final String GIRL = "Girl";
                     private static final String BREAK_GIRL_CODE = "I'm willing to break the girl code.";
-                    private static final String SOMEWHAT_INSULTING = "Just a somewhat insulting gif.";
+                    private static final String SOMEWHAT_INSULTING = "Just a somewhat insulting gif!";
                 private static final String BOY = "BOY";
                     private static final String BREAK_BRO_CODE = "I'm willing to break the bro code.";
 
