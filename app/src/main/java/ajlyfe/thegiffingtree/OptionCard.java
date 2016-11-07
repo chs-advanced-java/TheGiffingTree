@@ -8,11 +8,11 @@ import java.util.ArrayList;
 
 import ajlyfe.thegiffingtree.R;
 
-public class optionCard {
+public class OptionCard {
     private String optionName;
     private View.OnClickListener onClickListener;
 
-    public optionCard(String optionName, @NonNull View.OnClickListener onClickListener) {
+    public OptionCard(String optionName, @NonNull View.OnClickListener onClickListener) {
         this.optionName = optionName;
         this.onClickListener = onClickListener;
     }
@@ -25,12 +25,12 @@ public class optionCard {
         return this.getOnClickListener();
     }
 
-    public optionCard setOptionName(String optionName) {
+    public OptionCard setOptionName(String optionName) {
         this.optionName = optionName;
         return this;
     }
 
-    public optionCard setOnClickListener(View.OnClickListener onClickListener) {
+    public OptionCard setOnClickListener(View.OnClickListener onClickListener) {
         this.onClickListener = onClickListener;
         return this;
     }

@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
                 private static final String I_QUIT = "I quit!";
 
     private RecyclerView recyclerViewOptions;
-    private ArrayList<optionCard> optionCards = new ArrayList<>();
+    private ArrayList<OptionCard> optionCards = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -62,21 +62,16 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
 
-       /** recyclerViewOptions = (RecyclerView) findViewById(R.id.recyclerViewOptions);
-        final OptionCardAdapter adapter = new OptionCardAdapter(getDummyArray(), this);
-=======
         recyclerViewOptions = (RecyclerView) findViewById(R.id.recyclerViewOptions);
         final OptionCardAdapter adapter = new OptionCardAdapter(getFirstOptions(), this);
         recyclerViewOptions.setAdapter(adapter);
-        recyclerViewOptions.setLayoutManager(new LinearLayoutManager(this));**/
-
-        
+        recyclerViewOptions.setLayoutManager(new LinearLayoutManager(this));
     }
 
-    private ArrayList<optionCard> getFirstOptions() {
-        ArrayList<optionCard> firstOptionArray = new ArrayList<>();
+    private ArrayList<OptionCard> getFirstOptions() {
+        ArrayList<OptionCard> firstOptionArray = new ArrayList<>();
 
-        firstOptionArray.add(0, new optionCard(
+        firstOptionArray.add(0, new OptionCard(
                 PERSONAL,
                 new View.OnClickListener() {
                     @Override
@@ -85,7 +80,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                 }));
 
-        firstOptionArray.add(1, new optionCard(
+        firstOptionArray.add(1, new OptionCard(
                 PROFESSIONAL,
                 new View.OnClickListener() {
                     @Override
@@ -104,14 +99,14 @@ public class MainActivity extends AppCompatActivity {
         // Recreate optionCards ArrayList
         switch (oldOption) {
             case PERSONAL:
-                optionCards.add(0, new optionCard(
+                optionCards.add(0, new OptionCard(
                         null,
                         null
                 ));
                 break;
 
             case PROFESSIONAL:
-                optionCards.add(1, new optionCard(
+                optionCards.add(1, new OptionCard(
                         null,
                         null
                 ));
