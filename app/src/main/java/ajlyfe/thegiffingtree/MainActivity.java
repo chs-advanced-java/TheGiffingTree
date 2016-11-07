@@ -25,6 +25,11 @@ public class MainActivity extends AppCompatActivity {
         private static final String FRIENDS = "We are Friends";
             private static final String EMBARRASSED = "They have Embarrassed Me Before";
             private static final String BESTIES = "Besties 4 Lyfe";
+                private static final String GIRL = "Girl";
+                    private static final String BREAK_GIRL_CODE = "I'm willing to break the girl code.";
+                    private static final String SOMEWHAT_INSULTING = "Just a somewhat insulting gif.";
+                private static final String BOY = "BOY";
+                    private static final String BREAK_BRO_CODE = "I'm willing to break the bro code.";
 
         private static final String HATE = "I Hate Them";
             private static final String FRIENDLY = "We Used to be Friendly";
@@ -34,11 +39,19 @@ public class MainActivity extends AppCompatActivity {
 
         private static final String BETTER_THAN_THEM = "I am Better than Them. (Subordinate)";
             private static final String CONGRATULATE = "Congratulate";
+                private static final String GENUINE = "Genuine";
+                private static final String SARCASTIC = "Sarcastic";
             private static final String REPRIMAND = "Reprimand";
+                private static final String SUPER_SECRET_PROBATION = "Super secret probation.";
+                private static final String YOURE_FIRED = "You're fired!";
 
         private static final String BETTER_THAN_ME = "They are Better than Me. (Boss)";
             private static final String FIGUREHEAD = "They are a Figurehead.";
+                private static final String CONFESS = "Confess to an office crime.";
+                private static final String AGREE = "Agree to a pet project.";
             private static final String PRETENTIOUS = "They are Pretentious";
+                private static final String NEW_JOB = "Looking for a new job.";
+                private static final String I_QUIT = "I quit!";
 
     private RecyclerView recyclerViewOptions;
     private ArrayList<optionCard> optionCards = new ArrayList<>();
