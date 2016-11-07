@@ -1,35 +1,24 @@
 package ajlyfe.thegiffingtree;
 
 import android.app.Activity;
-import android.content.DialogInterface;
-import android.media.AudioManager;
-import android.media.MediaPlayer;
 import android.support.annotation.NonNull;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.support.v7.app.AlertDialog;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
 
-import ajlyfe.thegiffingtree.R;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
 public class OptionCardAdapter extends RecyclerView.Adapter<OptionCardAdapter.ViewHolder> {
 
-    private ArrayList<optionCard> optionList;
+    private ArrayList<OptionCard> optionList;
     private Activity parentActivity;
 
-    public OptionCardAdapter(@NonNull ArrayList<optionCard> optionList, Activity parentActivity) {
+    public OptionCardAdapter(@NonNull ArrayList<OptionCard> optionList, Activity parentActivity) {
         this.optionList = optionList;
         this.parentActivity = parentActivity;
     }
@@ -42,7 +31,7 @@ public class OptionCardAdapter extends RecyclerView.Adapter<OptionCardAdapter.Vi
 
     @Override
     public void onBindViewHolder(final OptionCardAdapter.ViewHolder viewHolder, int position) {
-        final optionCard option = optionList.get(viewHolder.getAdapterPosition());
+        final OptionCard option = optionList.get(viewHolder.getAdapterPosition());
 
         TextView title = viewHolder.optionTitle;
         title.setText(option.getOptionName());
