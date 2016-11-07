@@ -49,15 +49,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
 
-       /** recyclerViewOptions = (RecyclerView) findViewById(R.id.recyclerViewOptions);
-        final OptionCardAdapter adapter = new OptionCardAdapter(getDummyArray(), this);
-=======
         recyclerViewOptions = (RecyclerView) findViewById(R.id.recyclerViewOptions);
         final OptionCardAdapter adapter = new OptionCardAdapter(getFirstOptions(), this);
         recyclerViewOptions.setAdapter(adapter);
-        recyclerViewOptions.setLayoutManager(new LinearLayoutManager(this));**/
-
-        
+        recyclerViewOptions.setLayoutManager(new LinearLayoutManager(this));
     }
 
     private ArrayList<OptionCard> getFirstOptions() {
