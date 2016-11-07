@@ -10,6 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="164dp"
         android:foreground="@drawable/selectable_item_background"
+        android:backgroundTint="@color/colorAccentLight"
         android:clickable="true">
 
         <RelativeLayout android:id="@+id/optionCardGuts"
