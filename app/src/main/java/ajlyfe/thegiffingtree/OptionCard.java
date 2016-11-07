@@ -22,7 +22,7 @@ public class OptionCard {
     }
 
     public View.OnClickListener getOnClickListener() {
-        return this.getOnClickListener();
+        return this.onClickListener;
     }
 
     public OptionCard setOptionName(String optionName) {

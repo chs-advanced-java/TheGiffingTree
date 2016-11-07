@@ -8,6 +8,7 @@ import android.support.annotation.NonNull;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AlertDialog;
+import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -46,6 +47,10 @@ public class OptionCardAdapter extends RecyclerView.Adapter<OptionCardAdapter.Vi
 
         TextView title = viewHolder.optionTitle;
         title.setText(option.getOptionName());
+
+        CardView card = viewHolder.cardView;
+        card.setOnClickListener(option.getOnClickListener());
+        card.setTag(option.getOptionName());
     }
 
     public void removeAt(int position) {
@@ -54,11 +59,16 @@ public class OptionCardAdapter extends RecyclerView.Adapter<OptionCardAdapter.Vi
         notifyItemRangeChanged(position, optionList.size());
     }
 
+    public void setOptionList(ArrayList<OptionCard> newList) {
+        optionList = newList;
+    }
+
     @Override
     public int getItemCount() { return optionList.size(); }
 
     class ViewHolder extends RecyclerView.ViewHolder {
         @BindView(R.id.optionCardTitle) TextView optionTitle;
+        @BindView(R.id.optionCard) CardView cardView;
 
         ViewHolder(View itemView) {
             super(itemView);
