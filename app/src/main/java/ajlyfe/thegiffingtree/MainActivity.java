@@ -4,12 +4,22 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+<<<<<<< HEAD
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
+=======
 import android.view.View;
+>>>>>>> origin/master
 
+import java.io.File;
 import java.util.ArrayList;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import pl.droidsonroids.gif.GifDrawable;
+import pl.droidsonroids.gif.GifImageView;
+
+import static android.R.attr.animation;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -48,10 +58,17 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
 
+<<<<<<< HEAD
+       /** recyclerViewOptions = (RecyclerView) findViewById(R.id.recyclerViewOptions);
+        final OptionCardAdapter adapter = new OptionCardAdapter(getDummyArray(), this);
+=======
         recyclerViewOptions = (RecyclerView) findViewById(R.id.recyclerViewOptions);
         final OptionCardAdapter adapter = new OptionCardAdapter(getFirstOptions(), this);
+>>>>>>> origin/master
         recyclerViewOptions.setAdapter(adapter);
-        recyclerViewOptions.setLayoutManager(new LinearLayoutManager(this));
+        recyclerViewOptions.setLayoutManager(new LinearLayoutManager(this));**/
+
+        
     }
 
     private ArrayList<OptionCard> getFirstOptions() {
