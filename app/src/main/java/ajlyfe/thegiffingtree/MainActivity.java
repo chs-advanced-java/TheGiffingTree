@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
                     private static final String SOMEWHAT_INSULTING_GIRL = "Just a somewhat insulting gif!";
                 private static final String BOY = "BOY";
                     private static final String BREAK_BRO_CODE = "I'm willing to break the bro code.";
-                    private static final String SOMEWHAT_INSULTING_BOY = "Just a somewhat insulting gif!";
+                    private static final String SOMEWHAT_INSULTING_BOY = "Just a somewhat insulting gif! ";
                     // REPEAT SOMEWHAT INSULTING
 
     private static final String HATE = "I hate them";
