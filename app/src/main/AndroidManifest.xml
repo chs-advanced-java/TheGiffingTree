@@ -19,7 +19,11 @@
         <activity android:name=".GuyCodeGif" />
         <activity android:name=".EmbarassingFriendGif" />
         <activity android:name=".QuitGif" />
-        <activity android:name=".LookingForJobGif"></activity>
+        <activity android:name=".LookingForJobGif" />
+        <activity android:name=".NewProjectGif" />
+        <activity android:name=".ConfessGif" />
+        <activity android:name=".ScrewThemGif" />
+        <activity android:name=".ProbationGif"></activity>
     </application>
 
 </manifest>

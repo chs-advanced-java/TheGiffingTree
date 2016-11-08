@@ -210,7 +210,7 @@ public class MainActivity extends AppCompatActivity {
                 break;
 
             case PROFANITY:
-                //TODO: GIF
+                startActivity(new Intent(MainActivity.this, ScrewThemGif.class));
                 break;
 
             case CONGRATULATE:
@@ -296,7 +296,7 @@ public class MainActivity extends AppCompatActivity {
                 break;
 
             case PROBATION:
-                //TODO: GIF
+                startActivity(new Intent(MainActivity.this, ProbationGif.class));
                 break;
 
             case FIRED:
@@ -304,11 +304,11 @@ public class MainActivity extends AppCompatActivity {
                 break;
 
             case CONFESS:
-                //TODO: GIF
+                startActivity(new Intent(MainActivity.this, ConfessGif.class));
                 break;
 
             case AGREE:
-                //TODO: GIF
+                startActivity(new Intent(MainActivity.this, NewProjectGif.class));
                 break;
 
             case NEW_JOB:
