@@ -16,25 +16,20 @@
             </intent-filter>
         </activity>
         <activity android:name=".GenuineGif" />
-<<<<<<< HEAD
         <activity android:name=".CasualInsultMale" />
         <activity android:name=".CongratsSarcastic" />
         <activity android:name=".EmbarrassedByFriend" />
         <activity android:name=".Fired" />
         <activity android:name=".FormerFriend" />
         <activity android:name=".GirlCode"></activity>
-=======
         <activity android:name=".GuyCodeGif" />
         <activity android:name=".EmbarassingFriendGif" />
         <activity android:name=".QuitGif" />
-<<<<<<< HEAD
         <activity android:name=".LookingForJobGif" />
         <activity android:name=".NewProjectGif" />
         <activity android:name=".ConfessGif" />
         <activity android:name=".ScrewThemGif" />
         <activity android:name=".ProbationGif"></activity>
-=======
-        <activity android:name=".LookingForJobGif"></activity>
 >>>>>>> origin/master
 >>>>>>> origin/master
     </application>
