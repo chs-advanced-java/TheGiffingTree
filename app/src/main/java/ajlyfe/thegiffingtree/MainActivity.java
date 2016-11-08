@@ -1,5 +1,6 @@
 package ajlyfe.thegiffingtree;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
@@ -19,6 +20,7 @@ import pl.droidsonroids.gif.GifDrawable;
 import pl.droidsonroids.gif.GifImageView;
 
 import static android.R.attr.animation;
+import static android.R.attr.start;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -285,7 +287,7 @@ public class MainActivity extends AppCompatActivity {
                 break;
 
             case GENUINE:
-                //TODO: GIF
+                startActivity(new Intent(MainActivity.this, GenuineGif.class));
                 break;
 
             case SARCASTIC:
