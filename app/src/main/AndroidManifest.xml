@@ -15,7 +15,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".GenuineGif"></activity>
+        <activity android:name=".GenuineGif" />
+        <activity android:name=".GuyCodeGif"></activity>
     </application>
 
 </manifest>

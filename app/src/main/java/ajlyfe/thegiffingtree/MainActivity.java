@@ -31,9 +31,10 @@ public class MainActivity extends AppCompatActivity {
             private static final String BESTIES = "Besties 4 lyfe";
                 private static final String GIRL = "Girl";
                     private static final String BREAK_GIRL_CODE = "I'm willing to break the girl code.";
-                    private static final String SOMEWHAT_INSULTING = "Just a somewhat insulting gif!";
+                    private static final String SOMEWHAT_INSULTING_GIRL = "Just a somewhat insulting gif!";
                 private static final String BOY = "BOY";
                     private static final String BREAK_BRO_CODE = "I'm willing to break the bro code.";
+                    private static final String SOMEWHAT_INSULTING_BOY = "Just a somewhat insulting gif!";
                     // REPEAT SOMEWHAT INSULTING
 
     private static final String HATE = "I hate them";
@@ -269,7 +270,7 @@ public class MainActivity extends AppCompatActivity {
                 ));
 
                 optionCards.add(1, new OptionCard(
-                        SOMEWHAT_INSULTING,
+                        SOMEWHAT_INSULTING_GIRL,
                         onClickListener
                 ));
                 break;
@@ -281,7 +282,7 @@ public class MainActivity extends AppCompatActivity {
                 ));
 
                 optionCards.add(1, new OptionCard(
-                        SOMEWHAT_INSULTING,
+                        SOMEWHAT_INSULTING_BOY,
                         onClickListener
                 ));
                 break;
@@ -324,7 +325,11 @@ public class MainActivity extends AppCompatActivity {
                 //TODO: GIF
                 break;
 
-            case SOMEWHAT_INSULTING:
+            case SOMEWHAT_INSULTING_BOY:
+                //TODO: GIF
+                break;
+
+            case SOMEWHAT_INSULTING_GIRL:
                 //TODO: GIF
                 break;
 
