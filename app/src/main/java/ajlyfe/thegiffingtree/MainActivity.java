@@ -190,11 +190,7 @@ public class MainActivity extends AppCompatActivity {
             /** LEVEL THREE **/
 
             case EMBARRASSED:
-<<<<<<< HEAD
                 startActivity(new Intent(MainActivity.this, EmbarrassedByFriend.class));
-=======
-                startActivity(new Intent(MainActivity.this, EmbarassingFriendGif.class));
->>>>>>> origin/master
                 break;
 
             case BESTIES:
