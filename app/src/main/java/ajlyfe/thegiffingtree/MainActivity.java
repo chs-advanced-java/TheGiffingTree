@@ -190,7 +190,11 @@ public class MainActivity extends AppCompatActivity {
             /** LEVEL THREE **/
 
             case EMBARRASSED:
+<<<<<<< HEAD
+                startActivity(new Intent(MainActivity.this, EmbarrassedByFriend.class));
+=======
                 startActivity(new Intent(MainActivity.this, EmbarassingFriendGif.class));
+>>>>>>> origin/master
                 break;
 
             case BESTIES:
@@ -206,7 +210,7 @@ public class MainActivity extends AppCompatActivity {
                 break;
 
             case FRIENDLY:
-                //TODO: GIF
+                startActivity(new Intent(MainActivity.this, FormerFriend.class));
                 break;
 
             case PROFANITY:
@@ -292,7 +296,7 @@ public class MainActivity extends AppCompatActivity {
                 break;
 
             case SARCASTIC:
-                //TODO: GIF
+                startActivity(new Intent(MainActivity.this, CongratsSarcastic.class));
                 break;
 
             case PROBATION:
@@ -300,7 +304,7 @@ public class MainActivity extends AppCompatActivity {
                 break;
 
             case FIRED:
-                //TODO: GIF
+                startActivity(new Intent(MainActivity.this, Fired.class));
                 break;
 
             case CONFESS:
@@ -322,15 +326,15 @@ public class MainActivity extends AppCompatActivity {
             /** LEVEL FIVE **/
 
             case BREAK_GIRL_CODE:
-                //TODO: GIF
+                startActivity(new Intent(MainActivity.this, GirlCode.class));
                 break;
 
             case SOMEWHAT_INSULTING_BOY:
-                //TODO: GIF
+                startActivity(new Intent(MainActivity.this, CasualInsultMale.class));
                 break;
 
             case SOMEWHAT_INSULTING_GIRL:
-                //TODO: GIF
+                startActivity(new Intent(MainActivity.this, CasualInsultFemale.class));
                 break;
 
             case BREAK_BRO_CODE:
