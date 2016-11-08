@@ -16,12 +16,19 @@
             </intent-filter>
         </activity>
         <activity android:name=".GenuineGif" />
+<<<<<<< HEAD
         <activity android:name=".CasualInsultMale" />
         <activity android:name=".CongratsSarcastic" />
         <activity android:name=".EmbarrassedByFriend" />
         <activity android:name=".Fired" />
         <activity android:name=".FormerFriend" />
         <activity android:name=".GirlCode"></activity>
+=======
+        <activity android:name=".GuyCodeGif" />
+        <activity android:name=".EmbarassingFriendGif" />
+        <activity android:name=".QuitGif" />
+        <activity android:name=".LookingForJobGif"></activity>
+>>>>>>> origin/master
     </application>
 
 </manifest>
