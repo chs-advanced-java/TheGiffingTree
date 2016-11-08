@@ -13,7 +13,7 @@
     <pl.droidsonroids.gif.GifImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/casual_insult_female_attempt2"
+        android:src="@drawable/congrats_genuine"
         />
 
 </RelativeLayout>
