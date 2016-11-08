@@ -190,7 +190,7 @@ public class MainActivity extends AppCompatActivity {
             /** LEVEL THREE **/
 
             case EMBARRASSED:
-                //TODO: GIF
+                startActivity(new Intent(MainActivity.this, EmbarassingFriendGif.class));
                 break;
 
             case BESTIES:
@@ -312,11 +312,11 @@ public class MainActivity extends AppCompatActivity {
                 break;
 
             case NEW_JOB:
-                //TODO: GIF
+                startActivity(new Intent(MainActivity.this, LookingForJobGif.class));
                 break;
 
             case QUIT:
-                //TODO: GIF
+                startActivity(new Intent(MainActivity.this, QuitGif.class));
                 break;
 
             /** LEVEL FIVE **/
@@ -334,7 +334,7 @@ public class MainActivity extends AppCompatActivity {
                 break;
 
             case BREAK_BRO_CODE:
-                //TODO: GIF
+                startActivity(new Intent(MainActivity.this, GuyCodeGif.class));
                 break;
         }
     }

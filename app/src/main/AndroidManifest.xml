@@ -16,7 +16,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".GenuineGif" />
-        <activity android:name=".GuyCodeGif"></activity>
+        <activity android:name=".GuyCodeGif" />
+        <activity android:name=".EmbarassingFriendGif" />
+        <activity android:name=".QuitGif" />
+        <activity android:name=".LookingForJobGif"></activity>
     </application>
 
 </manifest>
