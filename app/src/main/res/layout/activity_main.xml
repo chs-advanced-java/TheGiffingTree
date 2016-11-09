@@ -11,13 +11,13 @@
     tools:context="ajlyfe.thegiffingtree.MainActivity">
 
     <!-- HARDCODE -->
-    <TextView android:id="@+id/main_logo"
+
+    <ImageView android:id="@+id/main_logo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
 
-        android:text="[THE GIFFING TREE LOGO HERE]"
-        android:textSize="18dp"
+        android:src="@drawable/ic_thegiffingtree"
         />
 
     <TextView android:id="@+id/main_question"
@@ -26,9 +26,9 @@
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/main_logo"
 
-        android:text="[IS THIS A SAMPLE QUESTION?]"
-        android:textSize="18dp"
-        android:layout_marginTop="16dp"
+        android:text="Select the option that best\nfits the gif you want."
+        android:textAlignment="center"
+        android:textSize="18sp"
         />
     <!-- END HARDCODE -->
 
