@@ -31,8 +31,6 @@
         <activity android:name=".ConfessGif" />
         <activity android:name=".ScrewThemGif" />
         <activity android:name=".ProbationGif"></activity>
->>>>>>> origin/master
->>>>>>> origin/master
     </application>
 
 </manifest>
