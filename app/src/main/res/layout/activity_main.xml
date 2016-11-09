@@ -26,7 +26,7 @@
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/main_logo"
 
-        android:text="Select the option that best\nfits the gif you want."
+        android:text="Select the option that best\nfits the gif you want!"
         android:textAlignment="center"
         android:textSize="18sp"
         />
