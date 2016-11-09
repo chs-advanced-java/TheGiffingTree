@@ -11,6 +11,7 @@
     tools:context="ajlyfe.thegiffingtree.ScrewThemGif">
 
     <ImageView android:id="@+id/main_logo"
+        android:contentDescription="@string/logo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
