@@ -17,6 +17,7 @@
         </activity>
         <activity android:name=".GenuineGif" />
         <activity android:name=".CasualInsultMale" />
+        <activity android:name=".CasualInsultFemale" />
         <activity android:name=".CongratsSarcastic" />
         <activity android:name=".EmbarrassedByFriend" />
         <activity android:name=".Fired" />

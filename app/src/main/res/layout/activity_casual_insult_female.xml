@@ -16,14 +16,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
 
-        android:src="@drawable/ic_thegiffingtree"
-        />
-
-    <pl.droidsonroids.gif.GifImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:src="@drawable/casual_insult_female_attempt2"
-        />
+        android:src="@drawable/ic_thegiffingtree"/>
 
     <Button
         android:backgroundTint="@color/colorAccentLight"
@@ -34,6 +27,13 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="41dp"
         android:id="@+id/back1" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/casual_insult_female_3"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
 
 </RelativeLayout>
 
